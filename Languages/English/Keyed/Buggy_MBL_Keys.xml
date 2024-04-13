@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<MBL_Option_Mod_Name>More Biotech Letters</MBL_Option_Mod_Name>
+	<MBL_Option>General options:</MBL_Option>
+	<MBL_Option_Debug>Log debug messages</MBL_Option_Debug>
+
+	<LGRF_Letter_Label>Genes Regrow Finished</LGRF_Letter_Label>
+	<LGRF_Letter_Text>{0}'s genes have finished regrowing.</LGRF_Letter_Text>
+
+	<LGRF_Option>On genes regrow finished:</LGRF_Option>
+	<LGRF_Option_Letter>Send letter</LGRF_Option_Letter>
+	<LGRF_Option_Pause>Pause the game</LGRF_Option_Pause>
+
+	<LGE_Letter_Label>Genes extracted</LGE_Letter_Label>
+	<LGE_Letter_Text>Genes extraction completed for {0}.</LGE_Letter_Text>
+	<LGE_Option>On genes extracted:</LGE_Option>
+	<LGE_Option_Letter>Send letter</LGE_Option_Letter>
+	<LGE_Option_Pause>Pause the game</LGE_Option_Pause>
+
+	<LRA_Letter_Label>Romanceable age reached</LRA_Letter_Label>
+	<LRA_Letter_Text>{0} can now romance others.</LRA_Letter_Text>
+	<LRA_Option>On reaching romanceable age:</LRA_Option>
+	<LRA_Option_Letter>Send letter</LRA_Option_Letter>
+	<LRA_Option_Pause>Pause the game</LRA_Option_Pause>
+</LanguageData>
