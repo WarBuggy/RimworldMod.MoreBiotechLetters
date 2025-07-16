@@ -16,6 +16,10 @@ namespace MoreBiotechLetters
 
         public bool pauseRomanceableAge;
 
+        public bool sendGestationComplete;
+
+        public bool pauseGestationComplete;
+
         public bool debug;
 
         public override void ExposeData()
@@ -26,6 +30,8 @@ namespace MoreBiotechLetters
             Scribe_Values.Look(ref pauseGenesExtracted, "pauseGenesExtracted", true, false);
             Scribe_Values.Look(ref sendRomanceableAge, "sendRomanceableAge", true, false);
             Scribe_Values.Look(ref pauseRomanceableAge, "pauseRomanceableAge", true, false);
+            Scribe_Values.Look(ref sendGestationComplete, "sendGestationComplete", true, false);
+            Scribe_Values.Look(ref pauseGestationComplete, "pauseGestationComplete", true, false);
             Scribe_Values.Look(ref debug, "debug", false, false);
             base.ExposeData();
         }

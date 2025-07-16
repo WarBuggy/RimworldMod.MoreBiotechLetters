@@ -22,4 +22,8 @@
 	<LRA_Option>On reaching romanceable age:</LRA_Option>
 	<LRA_Option_Letter>Send letter</LRA_Option_Letter>
 	<LRA_Option_Pause>Pause the game</LRA_Option_Pause>
+
+	<LGC_Option>On gestation complete:</LGC_Option>
+	<LGC_Option_Letter>Send letter</LGC_Option_Letter>
+	<LGC_Option_Pause>Pause the game</LGC_Option_Pause>
 </LanguageData>

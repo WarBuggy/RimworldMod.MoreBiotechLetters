@@ -33,6 +33,11 @@ namespace MoreBiotechLetters
             listingStandard.CheckboxLabeled("LRA_Option_Pause".Translate(), ref MBLSettings.pauseRomanceableAge);
             listingStandard.Gap();
 
+            listingStandard.Label("LGC_Option".Translate());
+            listingStandard.CheckboxLabeled("LGC_Option_Letter".Translate(), ref MBLSettings.sendGestationComplete);
+            listingStandard.CheckboxLabeled("LGC_Option_Pause".Translate(), ref MBLSettings.pauseGestationComplete);
+            listingStandard.Gap();
+
             listingStandard.Label("MBL_Option".Translate());
             listingStandard.CheckboxLabeled("MBL_Option_Debug".Translate(), ref MBLSettings.debug);
             listingStandard.End();
